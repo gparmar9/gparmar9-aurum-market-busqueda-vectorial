@@ -1,3 +1,7 @@
+# Guillermo Parés Marín
+
+-----------------------
+
 # Aurum Market — Práctica de Bases de Datos Vectoriales
 
 Este proyecto es el entregable de la práctica de la asignatura **Bases de Datos Vectoriales** del Máster en IA y Cloud Computing.
