@@ -1,0 +1,25 @@
+# Datos generados por el notebook (se recrean al ejecutarlo)
+cache/
+chroma_db/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Entorno / secretos
+.env
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Datos
+datos/
+
+# Notebooks de referencia
+notebooks_referencia/

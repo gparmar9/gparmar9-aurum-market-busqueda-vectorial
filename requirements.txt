@@ -1,0 +1,7 @@
+ipykernel
+ipywidgets
+numpy
+pandas
+scikit-learn
+sentence-transformers
+chromadb

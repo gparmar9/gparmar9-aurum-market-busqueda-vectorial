@@ -1,0 +1,19 @@
+{
+  "ndcg_at_10": 0.533307015065813,
+  "recall_at_10": 0.20505730828311475,
+  "mrr_at_10": 0.7125,
+  "latency_p50_ms": 16.415699999924982,
+  "latency_p95_ms": 17.57804500007296,
+  "fidelidad_ann_vs_oraculo_at_10": 0.9875,
+  "duplicate_threshold": 0.895,
+  "duplicate_precision_dev": 1.0,
+  "duplicate_recall_dev": 1.0,
+  "duplicate_f1_dev": 1.0,
+  "relevant_labels_for_recall_and_mrr": [
+    "E",
+    "S"
+  ],
+  "modelo_embeddings": "intfloat/multilingual-e5-small",
+  "metrica_indice": "cosine",
+  "top_k": 10
+}
