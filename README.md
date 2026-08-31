@@ -12,6 +12,19 @@ Consiste en un motor de búsqueda semántica de productos (encuentra productos p
 - **`cache/`**: embeddings ya calculados, para no tener que recalcularlos cada vez (se puede borrar sin problema).
 - **`Enunciado BBDD Alberto.pdf`**: enunciado original de la práctica.
 
+## Resultados
+
+Medidos sobre las consultas de desarrollo (catálogo completo de 15.000 productos):
+
+| Métrica | Valor |
+|---|---|
+| nDCG@10 | 0.53 |
+| Recall@10 | 0.21 |
+| MRR@10 | 0.71 |
+| Fidelidad del índice ANN | 98.75 % |
+| Latencia (p50 / p95) | 16 ms / 18 ms |
+| Detección de duplicados (precisión / recall / F1) | 1.0 / 1.0 / 1.0 |
+
 ## Cómo ejecutarlo
 
 1. Instalar las librerías necesarias: `pandas`, `numpy`, `scikit-learn`, `sentence-transformers`, `chromadb`.
